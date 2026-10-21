@@ -3,6 +3,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Inscrição · Clube de Fotografia</title>
+  <link rel="stylesheet" href="form.css">
 </head>
 <body>
   <header>
@@ -13,13 +14,13 @@
      <h1>Inscrição</h1>
      <p>Os campos assinalados «(obrigatório)» têm de ser preenchidos</p>
      <form action="#" method="post">
-          <label for="nome">Nome</label>
+          <label class="titulo3" for="nome">Nome</label>
           <input type="text" id="nome" autocomplete="name" required>
-          <label for="email">Email</label>
+          <label class="titulo3" for="email">Email</label>
           <input type="email" id="email" autocomplete="email" required>
-          <label for="telemovel">Telémovel</label>
+          <label class="titulo3" for="telemovel">Telémovel</label>
           <input type="tel" id="telemovel" autocomplete="tel">
-          <label for="curso">Curso</label>
+          <label class="titulo3" for="curso">Curso</label>
           <select id="curso" required>
                <option value="">Escolhe o teu curso</option>
                <option value="1">1</option>
@@ -52,7 +53,7 @@
           <p hidden id="ajuda">ajuda?</p>
           <input type="checkbox" id="consent" required>
           <label for="consent">Autorizo o uso dos meus dados apenas para gerir a inscrição</label>
-          <button type="submit">Submeter</button>
+          <button class="botao primario" type="submit">Submeter</button>
     </form>
   </main>
   <footer>Contacto do clube: Viçosos do CP</footer>

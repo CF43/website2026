@@ -1,0 +1,42 @@
+.botao{
+    border-radius: 10px;
+    width: 100px;
+}
+
+.primario{
+    background-color: #242E4C;
+    color: white;
+}
+.secundario{
+    background-color: #E9EAED;
+}
+h1{
+    font-size: 28px;
+    font-weight: bold;
+    color: #1E1A50;
+}
+h2, legend{
+    font-size: 16px;
+    font-weight: bold;
+    color: #1E1A50;
+}
+.titulo3{
+    font-size: 14px;
+    font-weight: bold;
+    color: #1A2950;
+}
+a{
+    font-size: 14px;
+    color: #738BFD;
+}
+p{
+    font-size: 12px;
+    color: #1A2950;
+}
+label{
+    margin: 5px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
