@@ -1,0 +1,60 @@
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inscrição · Clube de Fotografia</title>
+</head>
+<body>
+  <header>
+     <h1>Clube de Fotografia</h1>
+     <nav><a href="index.html">Sobre o Clube</a></nav>
+  </header>
+  <main>
+     <h1>Inscrição</h1>
+     <p>Os campos assinalados «(obrigatório)» têm de ser preenchidos</p>
+     <form action="#" method="post">
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" autocomplete="name" required>
+          <label for="email">Email</label>
+          <input type="email" id="email" autocomplete="email" required>
+          <label for="telemovel">Telémovel</label>
+          <input type="tel" id="telemovel" autocomplete="tel">
+          <label for="curso">Curso</label>
+          <select id="curso" required>
+               <option value="">Escolhe o teu curso</option>
+               <option value="1">1</option>
+               <option value="2">2</option>
+               <option value="3">3</option>
+               <option value="4">4</option>
+          </select>
+          <fieldset>
+               <legend>Ano</legend>
+               <input type="radio" name="ano" id="ano1">
+               <label for="ano1">1</label>
+               <input type="radio" name="ano" id="ano2">
+               <label for="ano2">2</label>
+               <input type="radio" name="ano" id="ano3">
+               <label for="ano3">3</label>
+          </fieldset>
+          <fieldset>
+               <legend>Interesses</legend>
+               <input type="checkbox" id="retrato">
+               <label for="retrato">retrato</label>
+               <input type="checkbox" id="paisagem">
+               <label for="paisagem">paisagem</label>
+               <input type="checkbox" id="rua">
+               <label for="rua">rua</label>
+               <input type="checkbox" id="edicao">
+               <label for="edicao">edição</label>
+          </fieldset>
+          <label for="razao">Porque queres entrar no clube?</label>
+          <textarea id="razao" aria-describedby="ajuda"></textarea>
+          <p hidden id="ajuda">ajuda?</p>
+          <input type="checkbox" id="consent" required>
+          <label for="consent">Autorizo o uso dos meus dados apenas para gerir a inscrição</label>
+          <button type="submit">Submeter</button>
+    </form>
+  </main>
+  <footer>Contacto do clube: Viçosos do CP</footer>
+</body>
+</html>
